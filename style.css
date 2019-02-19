@@ -1,0 +1,70 @@
+/*CSS style sheet*/
+
+#main-wrapper{
+	width: 500px;
+	margin: 0 auto;	/*background-color: maroon;*/
+	padding: 25px;
+	border-radius: 10px;
+	border: 2px solid #7158e2;
+	background-image: url(giphy.gif);
+	background-size: cover;
+	background-position: center;
+}
+
+@font-face{
+	src: url(fonts/LibreFranklin-Regular.ttf);
+	font-family: LibreFranklin;
+}
+
+.paragraph {
+	font-size: 28px;
+	line-height: 12px;
+	font-style: italic;
+	color: #ced6e0;
+}
+
+}
+.tuplogo{
+	width: 120px;
+	text-align: center;
+	background-size: 12px;
+}
+
+.myform{
+	width:435px;
+	margin: 0 auto;
+	padding: 5px;
+}
+
+.fontform{
+	font-size: 18px;
+	color: #ced6e0;
+}
+
+.inputvalues{
+	width: 430px;
+	margin: 0 auto;
+}
+
+#login_btn{
+	margin-top: 10px;
+	background-color: maroon;
+	padding: 5px;
+	color: white;
+	width: 100%;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#register_btn{
+	margin-top: 10px;
+	margin-bottom: 20px;
+	background-color: #4b4b4b;
+	padding: 5px;
+	color: white;
+	width: 100%;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
